@@ -1,6 +1,5 @@
 package test_builder.commands;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 import org.json.JSONException;
 import org.json.JSONObject;

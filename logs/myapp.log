@@ -1,0 +1,846 @@
+10:44:03.963 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+10:44:04.492 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:44:04.502 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:44:04.503 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Ка�\u201aалог"}
+10:44:04.625 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+10:44:04.646 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694072644645_8328_16
+10:44:05.307 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+10:44:05.359 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+10:44:05.666 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:44:10.850 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:44:11.042 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+10:44:11.096 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+10:44:11.097 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+10:44:11.097 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+10:44:11.097 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (73f753bf-b71b-4e47-a00a-ffa2646d43c4)
+10:44:11.099 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (73f753bf-b71b-4e47-a00a-ffa2646d43c4),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694072644645_8328_16] in 16 [size=1]
+10:44:11.100 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+10:44:15.102 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: �������Expected value: Каталог
+10:44:15.342 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (73f753bf-b71b-4e47-a00a-ffa2646d43c4).
+10:44:15.346 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694072644645_8328_16
+10:44:15.349 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (73f753bf-b71b-4e47-a00a-ffa2646d43c4)...
+10:44:15.456 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:44:15.535 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+10:44:15.537 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (73f753bf-b71b-4e47-a00a-ffa2646d43c4)...
+10:44:15.564 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:44:17.702 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 2165 ms
+10:44:17.702 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+10:49:12.395 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+10:49:12.778 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:49:12.796 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:49:12.797 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Ка�\u201aалог"}
+10:49:12.967 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+10:49:12.991 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694072952990_3340_16
+10:49:13.840 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+10:49:14.040 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+10:49:14.349 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:49:20.314 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:49:20.379 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+10:49:20.447 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+10:49:20.451 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+10:49:20.451 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+10:49:20.451 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (6a8c820d-733e-4650-b094-0410babc7464)
+10:49:20.455 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (6a8c820d-733e-4650-b094-0410babc7464),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694072952990_3340_16] in 16 [size=1]
+10:49:20.455 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+10:49:23.952 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: �������Expected value: Каталог
+10:49:24.334 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (6a8c820d-733e-4650-b094-0410babc7464).
+10:49:24.337 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694072952990_3340_16
+10:49:24.337 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (6a8c820d-733e-4650-b094-0410babc7464)...
+10:49:24.360 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:49:24.643 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+10:49:24.645 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (6a8c820d-733e-4650-b094-0410babc7464)...
+10:49:24.649 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+10:49:26.573 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1928 ms
+10:49:26.574 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:13:29.107 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:13:29.581 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:13:29.594 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:13:29.595 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Ка�\u201aалог"}
+13:13:29.781 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:13:29.801 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694081609799_13300_16
+13:13:31.696 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+13:13:31.735 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+13:13:31.981 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:13:37.036 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:13:37.103 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+13:13:37.180 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+13:13:37.181 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:13:37.181 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:13:37.181 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (785eaaf3-5449-4e6b-9e8d-139d5ad4f224)
+13:13:37.185 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (785eaaf3-5449-4e6b-9e8d-139d5ad4f224),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694081609799_13300_16] in 16 [size=1]
+13:13:37.185 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:13:40.532 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - ��������� ��������: UTF-8
+13:13:41.208 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: �������Expected value: Каталог
+13:13:41.667 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (785eaaf3-5449-4e6b-9e8d-139d5ad4f224).
+13:13:41.669 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694081609799_13300_16
+13:13:41.669 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (785eaaf3-5449-4e6b-9e8d-139d5ad4f224)...
+13:13:41.688 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:13:41.909 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+13:13:41.913 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (785eaaf3-5449-4e6b-9e8d-139d5ad4f224)...
+13:13:41.918 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:13:43.764 [Dead threads watchdog] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
+13:13:43.764 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 28 in 2095 ms
+13:13:43.764 [Dead threads watchdog] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694081609799_13300_16] in 28 [size=0]
+13:13:43.774 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1861 ms
+13:13:43.775 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:19:12.669 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:19:13.083 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:19:13.096 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:19:13.097 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"РљР°С\u201aР°Р»РѕРі"}
+13:19:13.225 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:19:13.250 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694081953248_14988_16
+13:19:13.958 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+13:19:14.042 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+13:19:14.433 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:19:19.546 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:19:19.646 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+13:19:19.740 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+13:19:19.740 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:19:19.740 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:19:19.740 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (d0cb11e8-96e4-4f3e-92e6-aedd73631795)
+13:19:19.744 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (d0cb11e8-96e4-4f3e-92e6-aedd73631795),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694081953248_14988_16] in 16 [size=1]
+13:19:19.744 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:19:22.676 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:19:23.045 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: КаталогExpected value: РљР°С‚Р°Р»РѕРі
+13:19:23.560 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (d0cb11e8-96e4-4f3e-92e6-aedd73631795).
+13:19:23.566 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694081953248_14988_16
+13:19:23.567 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (d0cb11e8-96e4-4f3e-92e6-aedd73631795)...
+13:19:23.598 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:19:23.701 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+13:19:23.702 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (d0cb11e8-96e4-4f3e-92e6-aedd73631795)...
+13:19:23.704 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:19:25.520 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1818 ms
+13:19:25.521 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:25:30.264 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:25:30.615 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:25:30.641 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:25:30.643 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+13:25:30.759 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:25:30.778 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694082330777_19092_16
+13:25:31.415 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+13:25:31.570 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+13:25:31.894 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:25:36.667 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:25:37.273 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+13:25:37.353 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+13:25:37.353 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:25:37.353 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:25:37.354 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (a8718db7-b1b4-4369-8938-749856da97cf)
+13:25:37.361 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (a8718db7-b1b4-4369-8938-749856da97cf),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694082330777_19092_16] in 16 [size=1]
+13:25:37.361 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:25:40.761 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:25:41.286 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: Каталог; Expected value: Каталог
+13:25:41.550 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (a8718db7-b1b4-4369-8938-749856da97cf).
+13:25:41.701 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694082330777_19092_16
+13:25:41.702 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (a8718db7-b1b4-4369-8938-749856da97cf)...
+13:25:41.762 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:25:41.987 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+13:25:41.988 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (a8718db7-b1b4-4369-8938-749856da97cf)...
+13:25:41.991 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:25:44.047 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 2059 ms
+13:25:44.047 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:27:22.146 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:27:22.562 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:27:22.574 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:27:22.576 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+13:27:22.686 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:27:22.704 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694082442702_8568_16
+13:27:23.370 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+13:27:23.461 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+13:27:23.713 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:27:28.210 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:27:28.400 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+13:27:28.528 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+13:27:28.528 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:27:28.528 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:27:28.528 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (331fdf69-8b41-4954-976f-2d6512a08791)
+13:27:28.580 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (331fdf69-8b41-4954-976f-2d6512a08791),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694082442702_8568_16] in 16 [size=1]
+13:27:28.583 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:27:31.686 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:27:32.469 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: Каталог; Expected value: Каталог
+13:27:32.761 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (331fdf69-8b41-4954-976f-2d6512a08791).
+13:27:32.761 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694082442702_8568_16
+13:27:32.762 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (331fdf69-8b41-4954-976f-2d6512a08791)...
+13:27:32.781 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:27:33.038 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+13:27:33.039 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (331fdf69-8b41-4954-976f-2d6512a08791)...
+13:27:33.041 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:27:34.973 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1934 ms
+13:27:34.973 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:45:35.602 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:45:35.978 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:45:35.989 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"class name","selector":"main-goods__show-more button_type_link ng-star-inserted"}
+13:45:36.249 [TestNG-test=demoqa_base_page_tests-1] ERROR t.commands.SetValueCommand - Element or value not found
+org.json.JSONException: JSONObject["value"] not found.
+	at org.json.JSONObject.get(JSONObject.java:454)
+	at org.json.JSONObject.getString(JSONObject.java:635)
+	at test_builder.commands.SetValueCommand.execute(SetValueCommand.java:21)
+	at test_builder.TestBuilder.executeCommands(TestBuilder.java:51)
+	at test_builder.TestSuite.runJsonBasedTest(TestSuite.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+13:46:31.797 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:46:32.186 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:46:32.198 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:46:32.199 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"class name","selector":"main-goods__show-more button_type_link ng-star-inserted"}
+13:46:32.340 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:46:32.359 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083592357_4244_16
+13:46:32.969 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+13:46:33.033 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+13:46:33.413 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:46:38.317 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:46:38.500 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+13:46:38.728 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+13:46:38.729 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:46:38.729 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:46:38.729 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (e2e3e915-dcd4-4ae3-8bc5-d16d7a21a4d6)
+13:46:38.731 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (e2e3e915-dcd4-4ae3-8bc5-d16d7a21a4d6),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083592357_4244_16] in 16 [size=1]
+13:46:38.732 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:46:42.428 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:46:42.656 [TestNG-test=demoqa_base_page_tests-1] ERROR t.commands.SetValueCommand - Element or value not found
+org.json.JSONException: JSONObject["value"] not found.
+	at org.json.JSONObject.get(JSONObject.java:454)
+	at org.json.JSONObject.getString(JSONObject.java:635)
+	at test_builder.commands.SetValueCommand.execute(SetValueCommand.java:21)
+	at test_builder.TestBuilder.executeCommands(TestBuilder.java:51)
+	at test_builder.TestSuite.runJsonBasedTest(TestSuite.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+13:46:42.951 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (e2e3e915-dcd4-4ae3-8bc5-d16d7a21a4d6).
+13:46:42.963 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083592357_4244_16
+13:46:42.964 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (e2e3e915-dcd4-4ae3-8bc5-d16d7a21a4d6)...
+13:46:42.974 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+13:46:42.976 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (e2e3e915-dcd4-4ae3-8bc5-d16d7a21a4d6)...
+13:46:42.975 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:46:42.978 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:46:44.905 [Dead threads watchdog] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
+13:46:44.905 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 28 in 1941 ms
+13:46:44.905 [Dead threads watchdog] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083592357_4244_16] in 28 [size=0]
+13:46:44.929 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1953 ms
+13:46:44.929 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:47:04.754 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:47:05.090 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:47:05.105 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:47:05.106 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"class name","selector":"main-goods__show-more button_type_link ng-star-inserted"}
+13:47:05.236 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:47:05.256 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083625255_9856_16
+13:47:05.900 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+13:47:06.043 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+13:47:06.713 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:47:11.302 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:47:11.336 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+13:47:11.415 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+13:47:11.415 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:47:11.415 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:47:11.415 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (7458dcbb-3b1a-4f07-a8ba-6fe2fd778fba)
+13:47:11.418 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (7458dcbb-3b1a-4f07-a8ba-6fe2fd778fba),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083625255_9856_16] in 16 [size=1]
+13:47:11.419 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:47:14.605 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:47:14.685 [TestNG-test=demoqa_base_page_tests-1] ERROR t.commands.SetValueCommand - Element or value not found
+org.json.JSONException: JSONObject["value"] not found.
+	at org.json.JSONObject.get(JSONObject.java:454)
+	at org.json.JSONObject.getString(JSONObject.java:635)
+	at test_builder.commands.SetValueCommand.execute(SetValueCommand.java:21)
+	at test_builder.TestBuilder.executeCommands(TestBuilder.java:51)
+	at test_builder.TestSuite.runJsonBasedTest(TestSuite.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+13:47:15.063 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (7458dcbb-3b1a-4f07-a8ba-6fe2fd778fba).
+13:47:15.088 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083625255_9856_16
+13:47:15.089 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (7458dcbb-3b1a-4f07-a8ba-6fe2fd778fba)...
+13:47:15.091 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:47:15.278 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+13:47:15.280 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (7458dcbb-3b1a-4f07-a8ba-6fe2fd778fba)...
+13:47:15.281 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:47:17.018 [Thread-5] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
+13:47:17.018 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1738 ms
+13:47:17.018 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:49:49.774 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+13:49:50.148 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:49:50.162 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:49:50.165 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"class name","selector":"main-goods__show-more button_type_link ng-star-inserted"}
+13:49:50.328 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:49:50.347 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083790346_2404_16
+13:49:50.983 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+13:49:51.066 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+13:49:51.389 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:49:55.818 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:49:55.870 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+13:49:55.953 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+13:49:55.953 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:49:55.953 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:49:55.953 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (ae9005f9-a55a-49e0-84e7-b91ce9ea5d7a)
+13:49:55.957 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (ae9005f9-a55a-49e0-84e7-b91ce9ea5d7a),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083790346_2404_16] in 16 [size=1]
+13:49:55.958 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:49:58.756 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:49:59.428 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (ae9005f9-a55a-49e0-84e7-b91ce9ea5d7a).
+13:49:59.442 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694083790346_2404_16
+13:49:59.442 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (ae9005f9-a55a-49e0-84e7-b91ce9ea5d7a)...
+13:49:59.459 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:49:59.553 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+13:49:59.562 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (ae9005f9-a55a-49e0-84e7-b91ce9ea5d7a)...
+13:49:59.564 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:50:00.982 [Thread-5] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
+13:50:00.983 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1421 ms
+13:50:00.983 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+19:49:00.249 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+19:49:00.647 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:49:00.660 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:49:00.661 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:49:00.853 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+19:49:00.872 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105340871_15224_16
+19:49:02.236 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+19:49:02.278 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+19:49:02.564 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:07.361 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:07.409 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+19:49:07.492 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+19:49:07.492 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+19:49:07.492 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+19:49:07.492 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (e1f5e311-b8b9-44c0-a34d-8fa7fa47b2b2)
+19:49:07.500 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (e1f5e311-b8b9-44c0-a34d-8fa7fa47b2b2),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105340871_15224_16] in 16 [size=1]
+19:49:07.501 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+19:49:10.612 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+19:49:11.611 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (e1f5e311-b8b9-44c0-a34d-8fa7fa47b2b2).
+19:49:11.612 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105340871_15224_16
+19:49:11.613 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (e1f5e311-b8b9-44c0-a34d-8fa7fa47b2b2)...
+19:49:11.618 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:11.836 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+19:49:11.851 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (e1f5e311-b8b9-44c0-a34d-8fa7fa47b2b2)...
+19:49:11.870 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:13.497 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 28 in 1884 ms
+19:49:13.501 [Dead threads watchdog] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105340871_15224_16] in 28 [size=0]
+19:49:13.509 [Thread-5] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
+19:49:13.510 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1659 ms
+19:49:13.510 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+19:49:25.536 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+19:49:25.883 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:49:25.896 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:49:25.897 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:49:26.031 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+19:49:26.050 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105366049_15868_16
+19:49:26.717 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+19:49:26.785 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+19:49:27.061 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:31.908 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:31.951 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+19:49:32.040 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+19:49:32.041 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+19:49:32.041 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+19:49:32.041 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (d504ea4c-2e39-4169-b516-5cceb977df61)
+19:49:32.044 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (d504ea4c-2e39-4169-b516-5cceb977df61),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105366049_15868_16] in 16 [size=1]
+19:49:32.045 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+19:49:34.950 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+19:49:35.780 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (d504ea4c-2e39-4169-b516-5cceb977df61).
+19:49:35.782 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105366049_15868_16
+19:49:35.783 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (d504ea4c-2e39-4169-b516-5cceb977df61)...
+19:49:35.809 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:36.143 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+19:49:36.193 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (d504ea4c-2e39-4169-b516-5cceb977df61)...
+19:49:36.196 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:49:37.852 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1659 ms
+19:49:37.853 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+19:50:57.454 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+19:50:57.813 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:50:57.828 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:50:57.829 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:50:57.981 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+19:50:57.999 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105457997_19448_16
+19:50:58.610 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+19:50:58.692 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+19:50:58.971 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:51:03.648 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:51:03.678 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+19:51:03.755 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+19:51:03.755 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+19:51:03.755 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+19:51:03.755 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (9c33dccc-bf66-4a69-a7ce-521f3852d878)
+19:51:03.759 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (9c33dccc-bf66-4a69-a7ce-521f3852d878),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105457997_19448_16] in 16 [size=1]
+19:51:03.759 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+19:51:06.871 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+19:51:07.487 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - Thread 16 is dead. Let's close its webdriver FirefoxDriver: firefox on windows (9c33dccc-bf66-4a69-a7ce-521f3852d878).
+19:51:07.491 [Dead threads watchdog] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105457997_19448_16
+19:51:07.492 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 28 -> FirefoxDriver: firefox on windows (9c33dccc-bf66-4a69-a7ce-521f3852d878)...
+19:51:07.591 [Dead threads watchdog] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:51:07.639 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=1
+19:51:07.640 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 27 -> FirefoxDriver: firefox on windows (9c33dccc-bf66-4a69-a7ce-521f3852d878)...
+19:51:07.643 [Thread-5] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+19:51:09.392 [Dead threads watchdog] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
+19:51:09.392 [Dead threads watchdog] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 28 in 1900 ms
+19:51:09.393 [Dead threads watchdog] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694105457997_19448_16] in 28 [size=0]
+19:51:09.401 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1761 ms
+19:51:09.401 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+15:33:30.024 [Test worker] WARN  org.testng.internal.Configuration - Detected a static method [test_builder.BaseTest.setUp()]. Static configuration methods can cause  unexpected behavior.
+15:33:30.412 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:33:30.429 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:33:30.431 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+15:33:30.431 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:33:30.609 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:33:30.628 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694176410627_11120_16
+15:33:32.164 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+15:33:32.223 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+15:33:32.491 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:33:37.421 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:33:37.637 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:33:37.692 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:33:37.700 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:33:37.701 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:33:37.701 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (1d01adcf-1d36-4653-b560-49a459f63c82)
+15:33:37.704 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (1d01adcf-1d36-4653-b560-49a459f63c82),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694176410627_11120_16] in 16 [size=1]
+15:33:37.705 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+15:33:41.370 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:33:41.923 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694176410627_11120_16
+15:33:41.930 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (1d01adcf-1d36-4653-b560-49a459f63c82)...
+15:33:41.944 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:33:44.033 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 2103 ms
+15:33:44.033 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694176410627_11120_16] in 16 [size=0]
+15:33:44.216 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+15:33:44.218 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:48:42.188 [Test worker] ERROR test_builder.JsonReader - File do not read
+java.nio.file.NoSuchFileException: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\tests_builder\tests_config\base_test_config\base_test_config.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at java.base/java.nio.file.Files.readString(Files.java:3284)
+	at java.base/java.nio.file.Files.readString(Files.java:3243)
+	at test_builder.JsonReader.getJsonArray(JsonReader.java:18)
+	at test_builder.TestBuilder.buildTests(TestBuilder.java:27)
+	at test_builder.BaseTest.runBaseTest(BaseTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:145)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:92)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+13:48:42.235 [Test worker] ERROR test_builder.TestBuilder - JSONArray is empty
+13:48:42.451 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:48:42.467 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:48:42.469 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+13:48:42.470 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+13:48:42.636 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:48:42.658 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694342922657_8300_16
+13:48:44.741 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+13:48:44.835 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+13:48:47.036 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.online.Downloader - Downloading https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/116.0.5845.96/win64/chromedriver-win64.zip
+13:48:47.931 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.online.Downloader - Extracting driver from compressed file chromedriver-win64.zip
+13:48:48.100 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Antibiotik\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+13:48:48.451 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:48:52.568 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:48:52.632 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:48:53.273 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=chrome Version=116.0.5845.180 Platform=windows
+13:48:53.273 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:48:53.273 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:48:53.274 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: ChromeDriver -> ChromeDriver: chrome on windows (b1b40877b932d6aebc6498b378e06a5b)
+13:48:53.278 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (b1b40877b932d6aebc6498b378e06a5b),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694342922657_8300_16] in 16 [size=1]
+13:48:53.279 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:48:56.597 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:48:56.999 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694342922657_8300_16
+13:48:56.999 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> ChromeDriver: chrome on windows (b1b40877b932d6aebc6498b378e06a5b)...
+13:48:57.352 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 353 ms
+13:48:57.353 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694342922657_8300_16] in 16 [size=0]
+13:48:57.572 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - No webdriver found for thread: 16 - nothing to close
+13:48:57.583 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+13:48:57.585 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+13:58:11.481 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\tests_builder\tests_config\base_test_config\base_test_config.json
+13:58:11.493 [Test worker] ERROR test_builder.JsonReader - File do not read
+java.nio.file.NoSuchFileException: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\tests_builder\tests_config\base_test_config\base_test_config.json
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at java.base/java.nio.file.Files.readString(Files.java:3284)
+	at java.base/java.nio.file.Files.readString(Files.java:3243)
+	at test_builder.JsonReader.getJsonArray(JsonReader.java:18)
+	at test_builder.TestBuilder.buildTests(TestBuilder.java:27)
+	at test_builder.BaseTest.runBaseTest(BaseTest.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:145)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:92)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+13:58:11.503 [Test worker] ERROR test_builder.TestBuilder - JSONArray is empty
+13:58:11.727 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:58:11.740 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:58:11.745 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+13:58:11.747 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+13:58:11.879 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+13:58:11.900 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343491898_9824_16
+13:58:12.527 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 116.0.5845.96 (resolved driver for Chrome 116)
+13:58:12.600 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Antibiotik\.cache\selenium\chromedriver\win64\116.0.5845.96\chromedriver.exe
+13:58:12.885 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:58:15.863 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:58:15.916 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+13:58:16.321 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=chrome Version=116.0.5845.180 Platform=windows
+13:58:16.321 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+13:58:16.321 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+13:58:16.322 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: ChromeDriver -> ChromeDriver: chrome on windows (4e39836acf3f18b23ec2168f83dc956e)
+13:58:16.326 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (4e39836acf3f18b23ec2168f83dc956e),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343491898_9824_16] in 16 [size=1]
+13:58:16.329 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+13:58:19.502 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+13:58:20.076 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343491898_9824_16
+13:58:20.076 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> ChromeDriver: chrome on windows (4e39836acf3f18b23ec2168f83dc956e)...
+13:58:20.576 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 500 ms
+13:58:20.576 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343491898_9824_16] in 16 [size=0]
+13:58:20.732 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - No webdriver found for thread: 16 - nothing to close
+13:58:20.785 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+13:58:20.786 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+14:04:44.339 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+14:04:44.374 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+14:04:44.390 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+14:04:44.391 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+14:04:44.638 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+14:04:44.638 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+14:04:44.638 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+14:04:44.638 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+14:04:44.771 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+14:04:44.800 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343884798_11944_16
+14:04:46.215 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+14:04:46.250 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+14:04:46.546 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+14:04:51.291 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+14:04:51.326 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+14:04:51.402 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+14:04:51.403 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+14:04:51.403 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+14:04:51.403 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (01191e38-f286-49b6-b32a-61f1eb566de4)
+14:04:51.408 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (01191e38-f286-49b6-b32a-61f1eb566de4),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343884798_11944_16] in 16 [size=1]
+14:04:51.408 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+14:04:54.431 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+14:04:55.249 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343884798_11944_16
+14:04:55.250 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (01191e38-f286-49b6-b32a-61f1eb566de4)...
+14:04:55.255 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+14:04:57.040 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1790 ms
+14:04:57.041 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343884798_11944_16] in 16 [size=0]
+14:04:57.230 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - No webdriver found for thread: 16 - nothing to close
+14:04:57.264 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+14:04:57.270 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+14:05:44.704 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+14:05:44.737 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+14:05:44.752 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+14:05:44.754 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+14:05:44.990 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+14:05:44.992 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+14:05:44.993 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+14:05:44.993 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+14:05:45.110 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+14:05:45.133 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343945131_15504_16
+14:05:45.787 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+14:05:45.908 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+14:05:46.146 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+14:05:51.157 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+14:05:51.469 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+14:05:51.806 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+14:05:51.807 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+14:05:51.807 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+14:05:51.807 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (abc0a84f-3d50-4d98-b101-3d6cf690d6de)
+14:05:51.811 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (abc0a84f-3d50-4d98-b101-3d6cf690d6de),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343945131_15504_16] in 16 [size=1]
+14:05:51.813 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+14:05:54.755 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+14:05:55.332 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343945131_15504_16
+14:05:55.332 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (abc0a84f-3d50-4d98-b101-3d6cf690d6de)...
+14:05:55.334 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+14:05:57.106 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1774 ms
+14:05:57.107 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694343945131_15504_16] in 16 [size=0]
+14:05:57.273 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - No webdriver found for thread: 16 - nothing to close
+14:05:57.297 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+14:05:57.298 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+15:33:58.473 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+15:33:58.508 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+15:33:58.550 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+15:33:58.552 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+15:33:58.932 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:33:58.935 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:33:58.941 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+15:33:58.941 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:33:59.151 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:33:59.184 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435639182_13080_16
+15:34:00.944 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+15:34:00.983 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+15:34:01.299 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:34:05.856 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:34:05.886 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:34:05.938 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:34:05.939 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:34:05.939 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:34:05.940 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (4e8029f9-004c-4d56-91e6-37faa1561d26)
+15:34:05.943 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (4e8029f9-004c-4d56-91e6-37faa1561d26),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435639182_13080_16] in 16 [size=1]
+15:34:05.944 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+15:34:08.803 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:34:09.281 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435639182_13080_16
+15:34:09.281 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (4e8029f9-004c-4d56-91e6-37faa1561d26)...
+15:34:09.283 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:34:10.914 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1633 ms
+15:34:10.914 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435639182_13080_16] in 16 [size=0]
+15:34:11.031 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+15:34:11.034 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+15:35:51.748 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+15:35:51.771 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+15:35:51.785 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+15:35:51.786 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+15:35:52.018 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:35:52.020 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:35:52.021 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+15:35:52.022 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:35:52.165 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:35:52.190 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435752189_18112_16
+15:35:52.800 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+15:35:52.872 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+15:35:53.182 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:35:57.871 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:35:58.071 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:35:58.151 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:35:58.151 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:35:58.151 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:35:58.151 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (30d2a91b-cce8-4b6a-a96f-5f83d6f18869)
+15:35:58.155 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (30d2a91b-cce8-4b6a-a96f-5f83d6f18869),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435752189_18112_16] in 16 [size=1]
+15:35:58.156 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+15:36:02.597 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:36:02.932 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435752189_18112_16
+15:36:02.933 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (30d2a91b-cce8-4b6a-a96f-5f83d6f18869)...
+15:36:02.935 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:04.980 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 2047 ms
+15:36:04.981 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435752189_18112_16] in 16 [size=0]
+15:36:05.142 [Dead threads watchdog] INFO  c.c.s.impl.DeadThreadsWatchdog - No webdriver found for thread: 16 - nothing to close
+15:36:05.148 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+15:36:05.148 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+15:36:31.694 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+15:36:31.716 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+15:36:31.730 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+15:36:31.731 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+15:36:31.939 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:36:31.940 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:36:31.941 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+15:36:31.942 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:36:32.067 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:36:32.088 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435792087_16664_16
+15:36:32.735 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 117)
+15:36:32.926 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+15:36:33.199 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:38.048 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:38.174 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:36:38.339 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:36:38.340 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:36:38.341 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:36:38.341 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (eed5b292-affc-4a14-a2fd-6647c1a7db55)
+15:36:38.345 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (eed5b292-affc-4a14-a2fd-6647c1a7db55),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435792087_16664_16] in 16 [size=1]
+15:36:38.345 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+15:36:40.521 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:36:41.192 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: Каталог; Expected value: Каталог
+15:36:41.235 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435792087_16664_16
+15:36:41.238 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (eed5b292-affc-4a14-a2fd-6647c1a7db55)...
+15:36:41.241 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:43.399 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 2161 ms
+15:36:43.400 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435792087_16664_16] in 16 [size=0]
+15:36:43.538 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:36:43.539 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:36:43.540 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+15:36:43.540 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:36:43.541 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:36:43.542 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435803542_16664_16
+15:36:43.568 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:46.208 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:46.332 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:36:46.405 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:36:46.406 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:36:46.406 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:36:46.406 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (1515ea7a-7534-4709-8a87-d209ebf00edd)
+15:36:46.406 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (1515ea7a-7534-4709-8a87-d209ebf00edd),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435803542_16664_16] in 16 [size=1]
+15:36:49.638 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:36:49.697 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435803542_16664_16
+15:36:49.697 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (1515ea7a-7534-4709-8a87-d209ebf00edd)...
+15:36:49.700 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:51.208 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1511 ms
+15:36:51.209 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435803542_16664_16] in 16 [size=0]
+15:36:51.233 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:36:51.233 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:36:51.233 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"iphone"}
+15:36:51.234 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:36:51.234 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:36:51.234 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+15:36:51.234 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:36:51.235 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:36:51.235 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435811235_16664_16
+15:36:51.244 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:54.135 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:36:54.150 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:36:54.188 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:36:54.188 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:36:54.188 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:36:54.188 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (1ec9e6ba-8fd2-4db8-8f7b-7d29b0e21835)
+15:36:54.189 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (1ec9e6ba-8fd2-4db8-8f7b-7d29b0e21835),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435811235_16664_16] in 16 [size=1]
+15:36:57.276 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:36:57.277 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.TypeCommand - Selector: .//input[@name='search']; Value:iphone
+15:36:57.959 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435811235_16664_16
+15:36:57.961 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (1ec9e6ba-8fd2-4db8-8f7b-7d29b0e21835)...
+15:36:57.964 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:00.070 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 2109 ms
+15:37:00.071 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435811235_16664_16] in 16 [size=0]
+15:37:00.071 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:37:00.072 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435820071_16664_16
+15:37:00.077 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:02.977 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:02.986 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:37:03.029 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:37:03.030 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:37:03.030 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:37:03.030 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (8eac42b9-2155-41db-a324-e655c0a5dec5)
+15:37:03.031 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (8eac42b9-2155-41db-a324-e655c0a5dec5),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435820071_16664_16] in 16 [size=1]
+15:37:06.477 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:37:06.478 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.TypeCommand - Selector: .//input[@name='search']; Value:ipad
+15:37:06.890 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435820071_16664_16
+15:37:06.891 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (8eac42b9-2155-41db-a324-e655c0a5dec5)...
+15:37:06.896 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:08.614 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1723 ms
+15:37:08.614 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435820071_16664_16] in 16 [size=0]
+15:37:08.625 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:37:08.625 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:37:08.626 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+15:37:08.626 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:37:08.626 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:37:08.626 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435828626_16664_16
+15:37:08.633 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:11.451 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:11.465 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:37:11.515 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:37:11.515 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:37:11.515 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:37:11.515 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (53368ab1-89c3-422b-9703-423b5d7baa0f)
+15:37:11.515 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (53368ab1-89c3-422b-9703-423b5d7baa0f),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435828626_16664_16] in 16 [size=1]
+15:37:14.369 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:37:14.370 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.TypeCommand - Selector: .//input[@name='search']; Value:bosch
+15:37:15.008 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435828626_16664_16
+15:37:15.009 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (53368ab1-89c3-422b-9703-423b5d7baa0f)...
+15:37:15.010 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:16.607 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1598 ms
+15:37:16.607 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435828626_16664_16] in 16 [size=0]
+15:37:16.621 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+15:37:16.621 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+15:37:16.623 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+15:37:16.623 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+15:37:16.623 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+15:37:16.624 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435836624_16664_16
+15:37:16.631 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:19.316 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:19.332 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+15:37:19.402 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=117.0 Platform=windows
+15:37:19.402 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+15:37:19.402 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+15:37:19.402 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (7425f60d-7759-4615-ab32-b1b58d5633ea)
+15:37:19.402 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (7425f60d-7759-4615-ab32-b1b58d5633ea),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435836624_16664_16] in 16 [size=1]
+15:37:21.431 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Кодировка страницы: UTF-8
+15:37:22.266 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435836624_16664_16
+15:37:22.266 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (7425f60d-7759-4615-ab32-b1b58d5633ea)...
+15:37:22.268 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+15:37:23.809 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1543 ms
+15:37:23.809 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1694435836624_16664_16] in 16 [size=0]
+15:37:23.832 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+15:37:23.833 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup

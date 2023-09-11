@@ -14,6 +14,7 @@ public class CloseCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
+		logger.info("The web driver is close");
 		Selenide.closeWebDriver();
 	}
 }

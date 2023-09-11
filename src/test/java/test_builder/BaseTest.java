@@ -7,8 +7,6 @@ import org.testng.annotations.BeforeSuite;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import static com.codeborne.selenide.Configuration.*;
-
 public class BaseTest {
 	private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
 

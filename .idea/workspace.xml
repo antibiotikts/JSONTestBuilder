@@ -4,47 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19bb994-dd8a-4871-9ac4-2f9cad5a751e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/JsonReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/RegistrarOfCommands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/TestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/AssertCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/BaseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/BaseSettingsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/ClickCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/CloseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/OpenUrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/PressEnterCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/ScrollToCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/SetBrowserCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/SetBrowserSizeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/SetValueCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/ShouldBe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/TestCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/TypeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/TestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/resources/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/assert_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/base_test_config/base_test_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/scrollto_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/search_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/search_test2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/should_be_visible_test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
+    <list default="true" id="c19bb994-dd8a-4871-9ac4-2f9cad5a751e" name="Changes" comment="Init">
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/BaseSettingsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/CloseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/CloseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/OpenUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/OpenUrl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +87,25 @@
       <option name="presentableId" value="Default" />
       <updated>1693985993650</updated>
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1694436002000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694436002000</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init">
+      <created>1694436077309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694436077309</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>

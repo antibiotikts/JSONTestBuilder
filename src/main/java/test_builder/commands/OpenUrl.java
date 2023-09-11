@@ -6,8 +6,6 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.nio.charset.Charset;
-
 import static com.codeborne.selenide.Selenide.open;
 
 public class OpenUrl extends BaseCommand {
@@ -22,7 +20,7 @@ public class OpenUrl extends BaseCommand {
 		try {
 			open(jsonObject.getString("url"));
 			String charset = Selenide.executeJavaScript("return document.characterSet");
-			logger.info("Кодировка страницы: " + charset);
+			logger.info("Page encoding: " + charset);
 		} catch (JSONException e) {
 			logger.error("Url not found", e);
 		}
