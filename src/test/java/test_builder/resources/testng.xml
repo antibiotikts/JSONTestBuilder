@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="methods" thread-count="1">
+    <test name="demoqa_base_page_tests" preserve-order="true">
+        <classes>
+            <class name="test_builder.BaseTest"/>
+            <class name="test_builder.TestSuite"/>
+        </classes>
+    </test>
+</suite>

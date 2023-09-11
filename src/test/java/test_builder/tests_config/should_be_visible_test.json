@@ -1,0 +1,17 @@
+[
+  {
+    "action": "open",
+    "url": "https://rozetka.com.ua/"
+  },
+
+  {
+    "action": "should be",
+    "selector_type": "xpath",
+    "selector": ".//input[@name='search']",
+    "condition": "visible"
+  },
+
+  {
+    "action": "close"
+  }
+]

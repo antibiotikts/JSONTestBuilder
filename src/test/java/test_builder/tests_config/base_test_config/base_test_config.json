@@ -1,0 +1,11 @@
+[
+  {
+    "action": "set browser",
+    "browser": "firefox"
+  },
+
+  {
+    "action": "set browser size",
+    "browser size": "1920x1080"
+  }
+]

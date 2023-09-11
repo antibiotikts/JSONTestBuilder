@@ -1,0 +1,17 @@
+[
+
+  {
+    "action": "open",
+    "url": "https://rozetka.com.ua/"
+  },
+
+  {
+    "action": "scroll to",
+    "selector_type": "xpath",
+    "selector": ".//div[@class='main-sidebar__block main-copyright']"
+  },
+
+  {
+    "action": "close"
+  }
+]
