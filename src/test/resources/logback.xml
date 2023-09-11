@@ -6,7 +6,7 @@
     </appender>
 
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
-        <file>F:\###JAVA_PROJECT###\Testing\JSONTestBuilder/logs/myapp.log</file> <!-- Путь к файлу -->
+        <file>F:\###JAVA_PROJECT###\Testing\JSONTestBuilder/logs/myapp.log</file>
         <append>true</append>
         <encoder>
             <charset>UTF-8</charset>
@@ -16,6 +16,6 @@
 
     <root level="INFO">
         <appender-ref ref="CONSOLE" />
-        <appender-ref ref="FILE" /> <!-- Добавляем этот аппендер для файла -->
+        <appender-ref ref="FILE" />
     </root>
 </configuration>
