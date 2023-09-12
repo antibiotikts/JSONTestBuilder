@@ -29,4 +29,4 @@ url: "Enter your url"  open your url
 "action": "should be",
 "selector_type": "enter your selector type" ["xpath", "element id", "element name", "css selector", "class name" ]
 "selector": "Enter your selector"
-"condition":  "Enter condition" ["visible"]
+"condition":  "Enter condition" ["visible", "hidden", "exist", "empty", "selected", {"text" has "value"}, {"text" has "exactText"}]
