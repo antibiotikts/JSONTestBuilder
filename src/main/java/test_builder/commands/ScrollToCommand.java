@@ -1,5 +1,7 @@
 package test_builder.commands;
 
+import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Allure;
 import org.json.JSONObject;
 
 
@@ -11,6 +13,9 @@ public class ScrollToCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
-		getElement(jsonObject).scrollTo();
+		Allure.addAttachment("Command", "Scroll to");
+		SelenideElement element = getElement(jsonObject);
+		Allure.addAttachment("Element", element.toString());
+		element.scrollTo();
 	}
 }

@@ -4,10 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19bb994-dd8a-4871-9ac4-2f9cad5a751e" name="Changes" comment="Init">
+    <list default="true" id="c19bb994-dd8a-4871-9ac4-2f9cad5a751e" name="Changes" comment="Improved command classes, added allure attachments">
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/TestSuit2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/resources/testng2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/old/negativ_assert_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/old/negativ_scrollto_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/old/negativ_search_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/old/negativ_search_test2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/old/negativ_should_be_visible_test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/allure.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/myapp.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/TestBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/AssertCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/AssertCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/BaseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/ClickCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/ClickCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/CloseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/CloseCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/OpenUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/OpenUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/PressEnterCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/PressEnterCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/ScrollToCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/ScrollToCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/SetValueCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/SetValueCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/ShouldBe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/ShouldBe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/commands/TypeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/commands/TypeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_builder/TestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_builder/TestSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +84,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/###JAVA_PROJECT###/Testing/QAFramework_0.0.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/###JAVA_PROJECT###/Testing/JSONTestBuilder/src/test/java/test_builder/resources&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
@@ -68,12 +92,15 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\resources" />
+      <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\old" />
       <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\resources" />
       <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java" />
       <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config" />
+      <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config" />
       <recent name="F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\old" />
     </key>
   </component>
@@ -114,11 +141,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694436650114</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added more conditions">
+      <created>1694504534981</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694504534982</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Added more conditions" />
+    <MESSAGE value="Improved command classes, added allure attachments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved command classes, added allure attachments" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/test_builder/commands/BaseCommand.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

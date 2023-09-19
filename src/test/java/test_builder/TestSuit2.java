@@ -3,16 +3,17 @@ package test_builder;
 import io.qameta.allure.Allure;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
 import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class TestSuite {
+public class TestSuit2 extends BaseTest {
 
 	@DataProvider(name = "jsonFiles")
 	public Object[][] getJsonFiles() {
 		String currentDirectory = System.getProperty("user.dir");
-		Path testDirectory = Paths.get(currentDirectory, "src", "test", "java", "test_builder", "tests_config");
+		Path testDirectory = Paths.get(currentDirectory, "src", "test", "java", "test_builder", "tests_config", "old");
 		File directory = testDirectory.toFile();
 
 		if (directory.isDirectory()) {
@@ -28,12 +29,11 @@ public class TestSuite {
 		return new Object[0][0];
 	}
 
-	@Test(dataProvider = "jsonFiles")
+	@Test(dataProvider = "jsonFiles", description = "Negative")
 	public void testRunJson(Path jsonFiles) {
 		TestBuilder tests = new TestBuilder(jsonFiles);
 		tests.buildTests();
 		tests.executeCommands();
 		Allure.addAttachment("INFO", jsonFiles.getFileName().toString());
-		Allure.label("Test name", jsonFiles.getFileName().toString());
 	}
 }

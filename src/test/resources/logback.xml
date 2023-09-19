@@ -11,8 +11,9 @@
         <encoder>
             <charset>UTF-8</charset>
             <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <maxHistory>5</maxHistory>
         </encoder>
-    </appender>
+    </appender>\
 
     <root level="INFO">
         <appender-ref ref="CONSOLE" />

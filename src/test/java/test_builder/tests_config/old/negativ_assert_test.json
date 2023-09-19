@@ -1,0 +1,17 @@
+[
+  {
+    "action": "open",
+    "url": "https://rozetka.com.ua/"
+  },
+
+  {
+    "action": "assert",
+    "selector_type": "element id",
+    "selector": "fat-menu",
+    "value": "Каталоги"
+  },
+
+  {
+    "action": "close"
+  }
+]

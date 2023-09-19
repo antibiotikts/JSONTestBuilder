@@ -1,5 +1,6 @@
 package test_builder;
 
+import io.qameta.allure.Allure;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -25,7 +26,9 @@ public class TestBuilder {
 		try {
 			JSONArray testSteps = JsonReader.getJsonArray(path);
 			if(testSteps == null) {
-				logger.error("JSONArray is empty");
+				String errorMassage = "JSONArray is empty";
+				logger.error(errorMassage);
+				Allure.addAttachment("Error", errorMassage);
 				return;
 			}
 
@@ -35,20 +38,27 @@ public class TestBuilder {
 
 				Class<? extends TestCommand> commandClass = RegistrarOfCommands.getCommandMap().get(action.toLowerCase());
 				if (commandClass == null) {
-					logger.error("Unknown action: " + action);
+					String errorMassage = "Unknown action: " + action;
+					logger.error(errorMassage);
+					Allure.addAttachment("Error", errorMassage);
 					continue;
 				}
 				logger.info(step.toString());
 				commandQueue.add(commandClass.getConstructor(JSONObject.class).newInstance(step));
 			}
 		} catch (JSONException | IllegalAccessException | InstantiationException | NoSuchMethodException | InvocationTargetException e) {
-			logger.error("An error occurred while building tests", e);
+			String errorMassage = "An error occurred while building tests";
+			logger.error(errorMassage, e);
+			Allure.addAttachment("Error", errorMassage);
+			Allure.addAttachment("Exception", e.getMessage());
 		}
 	}
 
 	public void executeCommands() {
 		if(commandQueue.isEmpty()) {
-			logger.error("The command queue is empty");
+			String errorMassage = "The command queue is empty";
+			logger.error(errorMassage);
+			Allure.addAttachment("Error", errorMassage);
 			return;
 		}
 

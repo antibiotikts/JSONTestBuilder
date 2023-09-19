@@ -1,6 +1,7 @@
 package test_builder.commands;
 
-import org.json.JSONException;
+import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Allure;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,14 +16,17 @@ public class AssertCommand extends BaseCommand{
 
 	@Override
 	public void execute() {
-		try {
-			String actualValue = getElement(jsonObject).getText();
-			String expectedValue = jsonObject.getString("value");
-			logger.info("Actual value: " + actualValue + "; Expected value: " + expectedValue);
-			Assert.assertEquals(actualValue, expectedValue);
-		} catch (JSONException e) {
-			logger.error("Value not found", e);
-		}
+		Allure.addAttachment("Command", "Assert");
+		SelenideElement element = getElement(jsonObject);
+		String actualValue = element.getText();
+		String expectedValue = getValue(jsonObject);
+
+		logger.info("Actual value: " + actualValue + "; Expected value: " + expectedValue);
+		Allure.addAttachment("Element", element.toString());
+		Allure.addAttachment("Actual value", actualValue);
+		Allure.addAttachment("Expected value", expectedValue);
+
+		Assert.assertEquals(actualValue, expectedValue);
 	}
 }
 

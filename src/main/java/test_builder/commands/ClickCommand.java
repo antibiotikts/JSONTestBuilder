@@ -1,14 +1,11 @@
 package test_builder.commands;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.codeborne.selenide.SelenideElement;
+import io.qameta.allure.Allure;
 
-import static com.codeborne.selenide.Selenide.$;
+import org.json.JSONObject;
 
 public class ClickCommand extends BaseCommand {
-	private static final Logger logger = LoggerFactory.getLogger(CloseCommand.class);
 
 	public ClickCommand(JSONObject jsonObject) {
 		super(jsonObject);
@@ -16,10 +13,9 @@ public class ClickCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
-		try {
-			$(jsonObject.getString("selector")).click();
-		} catch (JSONException e) {
-			logger.error("selector not found", e);
-		}
+		Allure.addAttachment("Command", "Click" );
+		SelenideElement element = getElement(jsonObject);
+		Allure.addAttachment("element", element.toString());
+		element.click();
 	}
 }

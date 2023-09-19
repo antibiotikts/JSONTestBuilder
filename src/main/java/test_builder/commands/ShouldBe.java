@@ -1,6 +1,7 @@
 package test_builder.commands;
 
 import com.codeborne.selenide.Condition;
+import io.qameta.allure.Allure;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -26,13 +27,10 @@ public class ShouldBe extends BaseCommand {
 
 	@Override
 	public void execute() {
-		String condition;
-		try {
-			 condition = jsonObject.getString("condition");
-		} catch (JSONException e) {
-			logger.error("Condition not found", e);
-			return;
-		}
+		Allure.addAttachment("Command", "Should be");
+		String condition = getCondition(jsonObject);
+
+		assert condition != null : "The condition is null";
 
 		switch (condition) {
 			case "visible":
@@ -51,21 +49,24 @@ public class ShouldBe extends BaseCommand {
 				getElement(jsonObject).shouldBe(Condition.selected);
 				break;
 			case "text":
-				String textValue = getValue("value");
+				String textValue = getValue(jsonObject);
 				if (textValue == null) {
 					break;
 				}
 				getElement(jsonObject).shouldBe(Condition.text(textValue));
 				break;
 			case "exactText":
-				String exactTextValue = getValue("value");
+				String exactTextValue = getValue(jsonObject);
 				if (exactTextValue == null) {
 					break;
 				}
 				getElement(jsonObject).shouldBe(Condition.exactText(exactTextValue));
 				break;
 			default:
-				logger.error("Unknown condition");
+				String errorMessage = "Unknown condition";
+				logger.error(errorMessage);
+				Allure.addAttachment("Error", errorMessage);
+				assert false: errorMessage;
 		}
 	}
 }

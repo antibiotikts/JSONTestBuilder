@@ -1,12 +1,8 @@
 package test_builder.commands;
 
-import org.json.JSONException;
 import org.json.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 public class TypeCommand extends BaseCommand {
-	private static final Logger logger = LoggerFactory.getLogger(TypeCommand.class);
 
 	public TypeCommand(JSONObject jsonObject) {
 		super(jsonObject);
@@ -14,12 +10,7 @@ public class TypeCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
-		try {
-			logger.info("Selector: " + jsonObject.getString("selector") + "; Value:" + jsonObject.getString("value"));
-			getElement(jsonObject).setValue(jsonObject.getString("value")).pressEnter();
+		getElement(jsonObject).setValue(getValue(jsonObject)).pressEnter();
 
-		} catch (JSONException e) {
-			logger.error("Element or value not found", e);
-		}
 	}
 }

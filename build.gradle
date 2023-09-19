@@ -3,9 +3,16 @@ plugins {
     id 'io.qameta.allure' version '2.10.0'
 }
 
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(11)
+    }
+}
+
 allure {
     allureServe.port = '8090'
 }
+
 group 'org.example'
 version '1.0-SNAPSHOT'
 
@@ -33,5 +40,10 @@ test {
 tasks.register("test3", Test) {
     useTestNG() {
         suites "src/test/java/test_builder/resources/testng.xml"
+    }
+}
+tasks.register("test2", Test) {
+    useTestNG() {
+        suites "src/test/java/test_builder/resources/testng2.xml"
     }
 }

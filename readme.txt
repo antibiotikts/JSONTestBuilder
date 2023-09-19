@@ -1,7 +1,9 @@
 in console enter this: gradlew clean test3
+build test report: gradlew allureReport
+open report: gradlew allureServe
 
 "action": "set browser",
-"browser": "firefox"
+"browser": "firefox" ["chrome", "firefox", "edge", "opera", "ie"]
 
 "action": "set browser size",
 "browser size": "1920x1080"

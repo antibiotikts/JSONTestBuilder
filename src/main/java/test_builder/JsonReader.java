@@ -1,5 +1,6 @@
 package test_builder;
 
+import io.qameta.allure.Allure;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.slf4j.Logger;
@@ -20,11 +21,19 @@ public class JsonReader {
 				logger.info("build JSON array successfully");
 				return jsonArray;
 			} catch (JSONException e) {
-				logger.error("JSON array does not building", e);
+				String  errorMessage = "JSON array does not building";
+				logger.error(errorMessage, e);
+				Allure.addAttachment("Error", errorMessage);
+				Allure.addAttachment("Exception", e.getMessage());
+				assert false: errorMessage;
 				return null;
 			}
 		} catch (IOException e) {
-			logger.error("File does not read", e);
+			String  errorMessage = "File does not read";
+			logger.error(errorMessage, e);
+			Allure.addAttachment("Error", errorMessage);
+			Allure.addAttachment("Exception", e.getMessage());
+			assert false: errorMessage;
 			return null;
 		}
 	}
