@@ -4003,3 +4003,734 @@ org.json.JSONException: JSONObject["condition"] not found.
 11:49:59.342 [Thread-5] ERROR c.c.s.d.CloseDriverCommand - Cannot close browser: WebDriverException: Timed out waiting for driver server to stop.
 11:49:59.342 [Thread-5] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 27 in 1232 ms
 11:49:59.342 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+15:20:45.247 [Test worker] ERROR org.testng.TestNG - No test suite found. Nothing to run
+15:35:46.125 [Test worker] ERROR org.testng.TestNG - No test suite found. Nothing to run
+22:01:37.389 [Test worker] ERROR org.testng.TestNG - No test suite found. Nothing to run
+22:05:24.111 [Test worker] ERROR org.testng.TestNG - No test suite found. Nothing to run
+22:12:17.305 [Test worker] ERROR org.testng.TestNG - No test suite found. Nothing to run
+13:35:40.770 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+13:35:40.815 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+13:35:40.828 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+13:35:40.830 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+13:35:41.064 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:35:41.066 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:35:41.067 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+13:35:41.071 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+13:35:41.405 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:35:41.406 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:35:41.406 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+13:35:41.406 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+13:35:41.422 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:35:41.422 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:35:41.423 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"iphone"}
+13:35:41.423 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+13:35:41.423 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:35:41.423 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+13:35:41.424 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+13:35:41.456 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:35:41.456 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:35:41.457 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+13:35:41.457 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+13:35:41.473 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+13:35:41.473 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+13:35:41.474 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+13:35:41.474 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:21:21.066 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+16:21:21.107 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+16:21:21.117 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+16:21:21.119 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+16:21:21.120 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+16:21:21.389 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:21:21.390 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:21:21.390 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+16:21:21.393 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:21:21.723 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:21:21.723 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:21:21.724 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+16:21:21.724 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:21:21.838 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:21:21.839 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:21:21.841 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+16:21:21.841 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:21:21.842 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:21:21.842 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+16:21:21.843 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:21:21.858 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:21:21.858 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:21:21.858 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+16:21:21.859 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:21:21.906 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:21:21.907 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:21:21.918 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+16:21:21.918 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:23:46.118 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+16:23:46.135 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+16:23:46.144 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+16:23:46.146 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+16:23:46.148 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+16:23:46.355 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:23:46.357 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:23:46.358 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+16:23:46.359 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:23:46.678 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:23:46.679 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:23:46.679 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+16:23:46.679 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:23:46.692 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:23:46.693 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:23:46.693 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+16:23:46.694 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:23:46.694 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:23:46.694 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+16:23:46.695 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:23:46.702 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:23:46.702 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:23:46.702 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+16:23:46.702 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+16:23:46.709 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+16:23:46.710 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+16:23:46.710 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+16:23:46.719 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:43:22.302 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+18:43:22.317 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+18:43:22.332 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+18:43:22.335 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+18:43:22.337 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+18:43:22.569 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:43:22.571 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:43:22.572 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+18:43:22.573 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:43:22.854 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:43:22.854 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:43:22.855 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+18:43:22.855 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:43:22.873 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:43:22.874 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:43:22.874 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+18:43:22.874 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:43:22.874 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:43:22.875 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+18:43:22.876 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:43:22.881 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:43:22.882 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:43:22.882 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+18:43:22.882 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:43:22.890 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:43:22.890 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:43:22.890 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+18:43:22.890 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:47:10.501 [Test worker] ERROR org.testng.TestNG - No test suite found. Nothing to run
+18:49:29.892 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+18:49:29.904 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+18:49:29.913 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+18:49:29.914 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+18:49:29.916 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+18:49:30.059 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:49:30.060 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:49:30.060 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+18:49:30.062 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:49:30.275 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:49:30.276 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:49:30.276 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+18:49:30.276 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:49:30.293 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:49:30.293 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:49:30.293 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+18:49:30.293 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:49:30.293 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:49:30.293 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+18:49:30.294 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:49:30.319 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:49:30.319 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:49:30.320 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+18:49:30.322 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:49:30.339 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:49:30.340 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:49:30.341 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+18:49:30.342 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:56:16.197 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+18:56:16.211 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+18:56:16.220 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+18:56:16.222 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+18:56:16.223 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+18:56:16.371 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:56:16.372 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:56:16.372 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+18:56:16.374 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:56:16.606 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:56:16.606 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:56:16.606 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+18:56:16.606 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:56:16.619 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:56:16.619 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:56:16.619 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+18:56:16.619 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:56:16.619 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:56:16.619 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+18:56:16.619 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:56:16.645 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:56:16.646 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:56:16.646 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+18:56:16.646 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+18:56:16.659 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+18:56:16.660 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+18:56:16.660 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+18:56:16.661 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:02:40.575 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+19:02:40.588 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:02:40.598 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+19:02:40.599 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:02:40.603 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+19:02:40.762 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:02:40.763 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:02:40.764 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+19:02:40.766 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:02:41.004 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:02:41.004 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:02:41.005 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:02:41.005 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:02:41.175 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:02:41.178 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:02:41.179 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+19:02:41.180 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:02:41.181 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:02:41.181 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+19:02:41.182 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:02:41.191 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:02:41.192 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:02:41.192 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+19:02:41.192 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:02:41.223 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:02:41.224 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:02:41.225 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+19:02:41.229 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:05:12.466 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+19:05:12.482 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:05:12.493 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+19:05:12.513 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:05:12.519 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+19:05:12.729 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:05:12.731 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:05:12.732 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+19:05:12.734 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:09:03.962 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:09:03.963 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:09:03.963 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:09:03.963 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:09:30.044 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:09:30.046 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:09:30.046 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+19:09:30.046 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:09:30.046 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:09:30.046 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+19:09:30.047 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:12:15.259 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:12:15.259 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:12:15.260 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+19:12:15.260 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:14:55.839 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:14:55.841 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:14:55.841 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+19:14:55.842 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:16:53.995 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+19:16:54.014 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:16:54.023 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+19:16:54.033 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:16:54.034 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+19:17:03.575 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:17:03.576 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:17:03.580 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+19:17:03.582 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:17:27.944 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:17:27.944 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:17:27.944 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:17:27.945 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:18:37.711 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:18:37.712 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:18:37.712 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+19:18:37.712 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:18:37.712 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:18:37.712 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+19:18:37.712 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:19:55.925 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:19:55.926 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:19:55.926 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+19:19:55.926 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:20:15.007 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:20:15.007 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:20:15.007 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+19:20:15.008 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:21:09.323 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+19:21:09.347 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:21:09.362 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+19:21:09.373 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:21:09.374 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+19:21:29.173 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:21:29.174 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:21:29.180 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+19:21:29.182 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:21:38.754 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:21:38.754 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:21:38.754 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:21:38.755 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:27:09.816 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+19:27:09.831 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:27:09.841 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+19:27:09.843 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:27:09.844 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+19:27:09.988 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:27:09.989 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:27:09.990 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+19:27:09.991 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:27:10.214 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:27:10.214 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:27:10.215 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:27:10.215 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:27:10.227 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:27:10.227 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:27:10.228 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+19:27:10.228 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:27:10.228 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:27:10.228 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+19:27:10.229 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:27:10.255 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:27:10.255 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:27:10.255 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+19:27:10.256 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:27:10.269 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:27:10.270 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:27:10.270 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+19:27:10.271 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:30:21.006 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+19:30:21.021 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:30:21.030 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+19:30:21.032 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+19:30:21.033 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+19:30:21.178 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:30:21.179 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:30:21.180 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+19:30:21.180 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:30:21.419 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:30:21.419 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:30:21.419 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+19:30:21.419 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:30:21.433 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:30:21.434 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:30:21.434 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+19:30:21.434 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:30:21.434 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:30:21.434 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+19:30:21.434 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:30:21.450 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:30:21.451 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:30:21.451 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+19:30:21.451 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+19:30:21.459 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+19:30:21.459 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+19:30:21.460 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+19:30:21.461 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:50:15.539 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+10:50:15.566 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+10:50:15.575 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+10:50:15.577 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+10:50:15.579 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+10:50:15.727 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:50:15.727 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:50:15.729 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+10:50:15.732 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:50:15.736 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:50:15.983 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:50:15.984 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:50:15.984 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+10:50:15.985 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:50:15.987 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:50:16.036 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:50:16.037 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:50:16.037 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+10:50:16.038 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:50:16.040 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:50:16.041 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+10:50:16.041 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:50:16.051 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:50:16.082 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:50:16.083 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:50:16.084 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+10:50:16.085 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:50:16.091 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:50:16.099 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:50:16.099 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:50:16.099 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+10:50:16.100 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:50:16.102 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:51:20.340 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+10:51:20.353 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+10:51:20.363 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+10:51:20.368 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+10:51:20.369 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+10:51:20.530 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:51:20.531 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:51:20.532 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталоги"}
+10:51:20.532 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:51:20.537 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:51:20.798 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:51:20.799 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:51:20.800 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpathр","selector":".//div[@class='main-sidebar__block main-copyright']"}
+10:51:20.800 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:51:20.801 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:51:20.825 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:51:20.825 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:51:20.826 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"iphone"}
+10:51:20.826 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:51:20.827 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:51:20.828 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']"}
+10:51:20.828 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:51:20.831 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:51:20.858 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:51:20.860 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:51:20.861 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector":".//input[@name='search']","value":"bosch"}
+10:51:20.862 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:51:20.871 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:51:20.894 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:51:20.896 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:51:20.897 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+10:51:20.897 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:51:20.899 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:54:16.701 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+10:54:16.717 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+10:54:16.727 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+10:54:16.730 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+10:54:16.731 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+10:54:16.875 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:54:16.876 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:54:16.876 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+10:54:16.877 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:54:16.886 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:54:17.112 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:54:17.113 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:54:17.113 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+10:54:17.113 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:54:17.116 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:54:17.126 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:54:17.126 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:54:17.127 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+10:54:17.127 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:54:17.127 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:54:17.127 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+10:54:17.127 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:54:17.143 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:54:17.154 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:54:17.155 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:54:17.155 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+10:54:17.155 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:54:17.160 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+10:54:17.182 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+10:54:17.183 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+10:54:17.184 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+10:54:17.185 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+10:54:17.189 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+11:03:46.777 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+11:03:46.791 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+11:03:46.801 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+11:03:46.803 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+11:03:46.805 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+11:03:46.954 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+11:03:46.955 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+11:03:46.956 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+11:03:46.956 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+11:03:46.960 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+11:03:46.961 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+11:03:46.962 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+11:03:46.963 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+11:03:47.080 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+11:03:47.105 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406627104_16812_16
+11:03:48.331 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
+11:03:48.370 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+11:03:48.598 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:03:53.441 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:03:53.501 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+11:03:53.549 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+11:03:53.550 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+11:03:53.550 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+11:03:53.550 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (f7b6a2e3-d939-462e-b9f9-24b93eb86df0)
+11:03:53.560 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (f7b6a2e3-d939-462e-b9f9-24b93eb86df0),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406627104_16812_16] in 16 [size=1]
+11:03:53.561 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+11:03:56.700 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+11:03:57.064 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: Каталог; Expected value: Каталог
+11:03:57.112 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+11:03:57.121 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406627104_16812_16
+11:03:57.122 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (f7b6a2e3-d939-462e-b9f9-24b93eb86df0)...
+11:03:57.125 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:03:58.894 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1772 ms
+11:03:58.894 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406627104_16812_16] in 16 [size=0]
+11:03:59.016 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+11:03:59.017 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+11:03:59.017 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+11:03:59.019 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+11:03:59.021 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+11:03:59.022 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+11:03:59.023 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+11:03:59.023 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+11:03:59.024 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+11:03:59.025 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406639025_16812_16
+11:03:59.034 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:01.679 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:01.737 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+11:04:01.763 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+11:04:01.765 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+11:04:01.766 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+11:04:01.766 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (10e9c4bb-b7ca-4665-abe8-4dd10582dea0)
+11:04:01.766 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (10e9c4bb-b7ca-4665-abe8-4dd10582dea0),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406639025_16812_16] in 16 [size=1]
+11:04:04.487 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+11:04:04.656 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+11:04:04.656 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406639025_16812_16
+11:04:04.658 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (10e9c4bb-b7ca-4665-abe8-4dd10582dea0)...
+11:04:04.660 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:06.033 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1375 ms
+11:04:06.033 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406639025_16812_16] in 16 [size=0]
+11:04:06.039 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+11:04:06.040 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+11:04:06.040 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+11:04:06.040 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+11:04:06.040 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+11:04:06.040 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+11:04:06.041 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+11:04:06.041 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+11:04:06.042 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+11:04:06.042 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+11:04:06.042 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+11:04:06.042 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+11:04:06.042 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406646042_16812_16
+11:04:06.048 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:08.712 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:08.769 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+11:04:08.791 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+11:04:08.792 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+11:04:08.793 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+11:04:08.794 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (639fef6d-19db-436b-ab5a-ff4d5159d71f)
+11:04:08.795 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (639fef6d-19db-436b-ab5a-ff4d5159d71f),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406646042_16812_16] in 16 [size=1]
+11:04:23.295 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+11:04:23.296 [TestNG-test=demoqa_base_page_tests-1] ERROR test_builder.commands.TypeCommand - selector not found
+org.json.JSONException: JSONObject["selector"] not found.
+	at org.json.JSONObject.get(JSONObject.java:454)
+	at org.json.JSONObject.getString(JSONObject.java:635)
+	at test_builder.commands.BaseCommand.getElement(BaseCommand.java:37)
+	at test_builder.commands.TypeCommand.execute(TypeCommand.java:13)
+	at test_builder.TestBuilder.executeCommands(TestBuilder.java:67)
+	at test_builder.TestSuite.testRunJson(TestSuite.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+11:04:23.316 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+11:04:23.317 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+11:04:23.317 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+11:04:23.317 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+11:04:23.323 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+11:04:23.323 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+11:04:23.323 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+11:04:23.323 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+11:04:25.543 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+11:04:25.901 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+11:04:25.901 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406646042_16812_16
+11:04:25.902 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (639fef6d-19db-436b-ab5a-ff4d5159d71f)...
+11:04:25.903 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:27.208 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1306 ms
+11:04:27.209 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406646042_16812_16] in 16 [size=0]
+11:04:27.214 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+11:04:27.214 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+11:04:27.215 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+11:04:27.215 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+11:04:27.216 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+11:04:27.216 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+11:04:27.216 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+11:04:27.216 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+11:04:27.216 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+11:04:27.217 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406667216_16812_16
+11:04:27.223 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:29.799 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:29.807 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+11:04:29.831 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+11:04:29.833 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+11:04:29.833 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+11:04:29.833 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (02cddbc4-b7d5-4ec5-901e-80877ff111eb)
+11:04:29.834 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (02cddbc4-b7d5-4ec5-901e-80877ff111eb),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406667216_16812_16] in 16 [size=1]
+11:04:32.615 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+11:04:32.818 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+11:04:32.818 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406667216_16812_16
+11:04:32.818 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (02cddbc4-b7d5-4ec5-901e-80877ff111eb)...
+11:04:32.820 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+11:04:34.172 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1354 ms
+11:04:34.172 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696406667216_16812_16] in 16 [size=0]
+11:04:34.195 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+11:04:34.196 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup
+17:34:06.553 [Test worker] INFO  test_builder.BaseTest - Path to base config file: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\src\test\java\test_builder\tests_config\base_test_config\base_test_config.json
+17:34:06.574 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+17:34:06.585 [Test worker] INFO  test_builder.TestBuilder - {"browser":"firefox","action":"set browser"}
+17:34:06.594 [Test worker] INFO  test_builder.JsonReader - build JSON array successfully
+17:34:06.595 [Test worker] INFO  test_builder.TestBuilder - {"browser size":"1920x1080","action":"set browser size"}
+17:34:06.750 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+17:34:06.751 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+17:34:06.752 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"assert","selector_type":"element id","selector":"fat-menu","value":"Каталог"}
+17:34:06.753 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+17:34:06.757 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+17:34:06.759 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+17:34:06.761 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+17:34:06.762 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+17:34:06.873 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+17:34:06.897 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430046896_10368_16
+17:34:08.042 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
+17:34:08.079 [TestNG-test=demoqa_base_page_tests-1] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\Antibiotik\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
+17:34:08.290 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:12.594 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:12.622 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+17:34:12.696 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+17:34:12.696 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+17:34:12.696 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+17:34:12.696 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (deb6d747-868d-4966-bd06-e49d483d3009)
+17:34:12.701 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (deb6d747-868d-4966-bd06-e49d483d3009),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430046896_10368_16] in 16 [size=1]
+17:34:12.701 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Add shutdown hook in 16 [size=1]
+17:34:16.811 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+17:34:17.202 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.AssertCommand - Actual value: Каталог; Expected value: Каталог
+17:34:17.255 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+17:34:17.257 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430046896_10368_16
+17:34:17.263 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (deb6d747-868d-4966-bd06-e49d483d3009)...
+17:34:17.268 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:18.758 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1495 ms
+17:34:18.759 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430046896_10368_16] in 16 [size=0]
+17:34:18.888 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+17:34:18.889 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+17:34:18.889 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"scroll to","selector_type":"xpath","selector":".//div[@class='main-sidebar__block main-copyright']"}
+17:34:18.890 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+17:34:18.891 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+17:34:18.892 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+17:34:18.892 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+17:34:18.892 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+17:34:18.893 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+17:34:18.894 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430058893_10368_16
+17:34:18.904 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:21.423 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:21.485 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+17:34:21.510 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+17:34:21.510 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+17:34:21.510 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+17:34:21.510 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (e0a7df8e-8fad-4496-a057-945b1764aab8)
+17:34:21.511 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (e0a7df8e-8fad-4496-a057-945b1764aab8),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430058893_10368_16] in 16 [size=1]
+17:34:24.176 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+17:34:24.413 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+17:34:24.414 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430058893_10368_16
+17:34:24.418 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (e0a7df8e-8fad-4496-a057-945b1764aab8)...
+17:34:24.424 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:25.780 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1363 ms
+17:34:25.780 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430058893_10368_16] in 16 [size=0]
+17:34:25.793 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+17:34:25.793 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+17:34:25.793 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","value":"iphone","element":"input"}
+17:34:25.793 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+17:34:25.794 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+17:34:25.794 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"ipad"}
+17:34:25.794 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+17:34:25.795 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+17:34:25.795 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+17:34:25.795 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+17:34:25.795 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+17:34:25.795 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+17:34:25.795 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430065795_10368_16
+17:34:25.801 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:28.238 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:28.296 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+17:34:28.334 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+17:34:28.334 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+17:34:28.335 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+17:34:28.339 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (74ee8784-e1ef-457f-be52-0a9663bced76)
+17:34:28.340 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (74ee8784-e1ef-457f-be52-0a9663bced76),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430065795_10368_16] in 16 [size=1]
+17:34:30.958 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+17:34:31.378 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+17:34:31.381 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430065795_10368_16
+17:34:31.382 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (74ee8784-e1ef-457f-be52-0a9663bced76)...
+17:34:31.384 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:32.550 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1168 ms
+17:34:32.550 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430065795_10368_16] in 16 [size=0]
+17:34:32.551 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+17:34:32.552 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+17:34:32.552 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+17:34:32.552 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+17:34:32.552 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+17:34:32.553 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430072552_10368_16
+17:34:32.558 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:35.250 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:35.268 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+17:34:35.304 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+17:34:35.305 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+17:34:35.305 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+17:34:35.305 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (57944257-af25-4945-b9d1-01b8c17c4114)
+17:34:35.305 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (57944257-af25-4945-b9d1-01b8c17c4114),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430072552_10368_16] in 16 [size=1]
+17:34:36.847 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+17:34:37.876 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+17:34:37.886 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430072552_10368_16
+17:34:37.887 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (57944257-af25-4945-b9d1-01b8c17c4114)...
+17:34:37.889 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:39.207 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1320 ms
+17:34:39.207 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430072552_10368_16] in 16 [size=0]
+17:34:39.219 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+17:34:39.220 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+17:34:39.220 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"type","selector_type":"xpath","selector":".//input[@name='search']","value":"bosch"}
+17:34:39.220 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+17:34:39.220 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+17:34:39.221 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+17:34:39.221 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+17:34:39.221 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+17:34:39.221 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+17:34:39.222 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430079222_10368_16
+17:34:39.228 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:41.745 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:41.753 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+17:34:41.784 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+17:34:41.785 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+17:34:41.785 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+17:34:41.785 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (36e8db37-07c1-4c34-8216-91700ffc40ca)
+17:34:41.785 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (36e8db37-07c1-4c34-8216-91700ffc40ca),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430079222_10368_16] in 16 [size=1]
+17:34:44.267 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+17:34:44.721 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+17:34:44.733 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430079222_10368_16
+17:34:44.734 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (36e8db37-07c1-4c34-8216-91700ffc40ca)...
+17:34:44.739 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:46.036 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1302 ms
+17:34:46.038 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430079222_10368_16] in 16 [size=0]
+17:34:46.048 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.JsonReader - build JSON array successfully
+17:34:46.048 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"open","url":"https://rozetka.com.ua/"}
+17:34:46.048 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"condition":"visible","action":"should be","selector_type":"xpath","selector":".//input[@name='search']"}
+17:34:46.048 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.TestBuilder - {"action":"close"}
+17:34:46.049 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open start
+17:34:46.049 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - URL is: https://rozetka.com.ua/
+17:34:46.049 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Page encoding: null
+17:34:46.050 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Open URL: https://rozetka.com.ua/
+17:34:46.050 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.i.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 16 - let's create a new webdriver
+17:34:46.050 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Creating folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430086050_10368_16
+17:34:46.055 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:48.644 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:48.677 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.BrowserResizer - Set browser size to 1920x1080
+17:34:48.702 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - BrowserName=firefox Version=118.0.1 Platform=windows
+17:34:48.702 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenide v. 6.16.1
+17:34:48.702 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.webdriver.WebDriverFactory - Selenium WebDriver v. 4.10.0 build revision: c14d967899
+17:34:48.702 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CreateDriverCommand - Created webdriver in thread 16: FirefoxDriver -> FirefoxDriver: firefox on windows (ceeebf74-a14d-4be9-b8e7-0cfb5b819732)
+17:34:48.702 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Register WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (ceeebf74-a14d-4be9-b8e7-0cfb5b819732),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430086050_10368_16] in 16 [size=1]
+17:34:51.360 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.OpenUrl - Command open is finishing
+17:34:51.444 [TestNG-test=demoqa_base_page_tests-1] INFO  test_builder.commands.CloseCommand - The web driver is close
+17:34:51.446 [TestNG-test=demoqa_base_page_tests-1] INFO  c.codeborne.selenide.impl.FileHelper - Deleted empty folder: F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430086050_10368_16
+17:34:51.447 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Close webdriver: 16 -> FirefoxDriver: firefox on windows (ceeebf74-a14d-4be9-b8e7-0cfb5b819732)...
+17:34:51.450 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.w.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+17:34:52.596 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.CloseDriverCommand - Closed webdriver 16 in 1149 ms
+17:34:52.596 [TestNG-test=demoqa_base_page_tests-1] INFO  c.c.s.d.DisposablesRegistry - Unregister WebDriverInstance[config=StaticConfig,webDriver=FirefoxDriver: firefox on windows (null),proxy=null,downloadsFolder=F:\###JAVA_PROJECT###\Testing\JSONTestBuilder\build\downloads\1696430086050_10368_16] in 16 [size=0]
+17:34:52.618 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Run cleanup: size=0
+17:34:52.618 [Thread-5] INFO  c.c.s.d.DisposablesRegistry - Finished cleanup

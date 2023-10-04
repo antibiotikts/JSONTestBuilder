@@ -7,7 +7,7 @@
   {
     "action": "type",
     "selector_type": "xpath",
-    "selector": ".//input[@name='search']",
+    "element": "input",
     "value": "iphone"
   },
 

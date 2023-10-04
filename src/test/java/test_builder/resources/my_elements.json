@@ -1,0 +1,6 @@
+[
+  {
+    "element": "input",
+    "xpath": ".//input[@name='search']"
+  }
+]

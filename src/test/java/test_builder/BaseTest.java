@@ -9,9 +9,9 @@ import java.nio.file.Paths;
 
 public class BaseTest {
 	private static final Logger logger = LoggerFactory.getLogger(BaseTest.class);
+	String configFileName = "base_test_config.json";
+	String currentDirectory = System.getProperty("user.dir");
 
-	private final String configFileName = "base_test_config.json";
-	private final String currentDirectory = System.getProperty("user.dir");
 	private final Path configFilePath = Paths.get(currentDirectory, "src", "test", "java", "test_builder", "tests_config","base_test_config", configFileName);
 
 	@BeforeSuite

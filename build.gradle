@@ -1,6 +1,17 @@
+
+//import org.example.qwe.PrintDocs
+
 plugins {
     id 'java'
     id 'io.qameta.allure' version '2.10.0'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDirs = ['src/main/java']
+        }
+    }
 }
 
 java {
@@ -47,3 +58,4 @@ tasks.register("test2", Test) {
         suites "src/test/java/test_builder/resources/testng2.xml"
     }
 }
+
