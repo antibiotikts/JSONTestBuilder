@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="methods" thread-count="1">
+    <listeners>
+        <listener class-name="test_builder.listeners.DescriptionListener" />
+    </listeners>
+    <test name="demoqa_base_page_tests">
+        <classes>
+            <class name="test_builder.BaseTest"/>
+            <class name="test_builder.TestSuit3"/>
+        </classes>
+    </test>
+</suite>

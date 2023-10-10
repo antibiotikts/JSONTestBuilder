@@ -3,6 +3,7 @@ package test_builder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.BeforeSuite;
+import test_builder.paths.MyPaths;
 
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -12,7 +13,7 @@ public class BaseTest {
 	String configFileName = "base_test_config.json";
 	String currentDirectory = System.getProperty("user.dir");
 
-	private final Path configFilePath = Paths.get(currentDirectory, "src", "test", "java", "test_builder", "tests_config","base_test_config", configFileName);
+	private final Path configFilePath = MyPaths.getBaseTestConfigPath();
 
 	@BeforeSuite
 	public void runBaseTest() {

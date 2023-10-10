@@ -36,4 +36,5 @@ public class TestSuit2 extends BaseTest {
 		tests.executeCommands();
 		Allure.addAttachment("INFO", jsonFiles.getFileName().toString());
 	}
+
 }

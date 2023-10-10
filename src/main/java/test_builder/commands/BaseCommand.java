@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import test_builder.ElementsMap;
 import test_builder.MyElement;
+import test_builder.keys.Keys;
 import test_builder.keys.SelectorTypeKeys;
 import test_builder.paths.MyPaths;
 
@@ -30,23 +31,31 @@ public abstract class BaseCommand implements TestCommand {
 
 	protected SelenideElement getElement(JSONObject jsonObject) {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
-		String selectorType = jsonObject.optString("selector_type", null);
+		String selectorType = jsonObject.optString(Keys.SELECTOR_TYPE, null);
 
 		if (selectorType == null) {
+			String errorMassage = "Selector type not found";
+			logger.error(errorMassage);
+			Allure.addAttachment("Error", errorMassage);
+			assert false: errorMassage;
 			return null;
 		}
 
-		String element = jsonObject.optString("element", null);
+		String element = jsonObject.optString(Keys.ELEMENT_KEY, null);
 
 		if (element != null) {
 			return findElementByTypeInMap(element, selectorType, logger);
 		}
 
-		String selector = jsonObject.optString("selector", null);
+		String selector = jsonObject.optString(Keys.SELECTOR_KEY, null);
 
 		if (selector != null) {
 			return findElementByType(selector, selectorType, logger);
 		}
+		String errorMassage = "Element and selector not found";
+		logger.error(errorMassage);
+		Allure.addAttachment("Error", errorMassage);
+		assert false: errorMassage;
 		return null;
 	}
 
@@ -54,7 +63,7 @@ public abstract class BaseCommand implements TestCommand {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 		try {
 			String value;
-			value = jsonObject.getString("value");
+			value = jsonObject.getString(Keys.VALUE_KEY);
 			Allure.addAttachment("Value", value);
 			return value;
 		} catch (JSONException e) {
@@ -72,7 +81,7 @@ public abstract class BaseCommand implements TestCommand {
 		String condition;
 
 		try {
-			condition = jsonObject.getString("condition");
+			condition = jsonObject.getString(Keys.CONDITION_KEY);
 			Allure.addAttachment("Condition", condition);
 		} catch (JSONException e) {
 			String errorMessage = "Condition not found";
@@ -90,7 +99,7 @@ public abstract class BaseCommand implements TestCommand {
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 
 		try {
-			url = jsonObject.getString("url");
+			url = jsonObject.getString(Keys.URL_KEY);
 			//Selenide.executeJavaScript("return document.characterSet");
 			logger.info("URL is: " + url);
 
@@ -109,7 +118,7 @@ public abstract class BaseCommand implements TestCommand {
 		String secondValue;
 		Logger logger = LoggerFactory.getLogger(this.getClass());
 		try {
-			secondValue = jsonObject.getString("second value");
+			secondValue = jsonObject.getString(Keys.SECOND_VALUE_KEY);
 			Allure.addAttachment("second value", secondValue);
 			logger.info("Second value: " + secondValue);
 		} catch (JSONException e) {
