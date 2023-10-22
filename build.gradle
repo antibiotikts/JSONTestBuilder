@@ -59,7 +59,7 @@ tasks.register("test2", Test) {
     }
 }
 
-tasks.register("test1", Test) {
+tasks.register("parametrized_test", Test) {
     useTestNG() {
         suites "src/test/java/test_builder/resources/testng1.xml"
     }

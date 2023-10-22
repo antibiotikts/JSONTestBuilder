@@ -31,8 +31,8 @@ public class TestSuit2 extends BaseTest {
 
 	@Test(dataProvider = "jsonFiles", description = "Negative")
 	public void testRunJson(Path jsonFiles) {
-		TestBuilder tests = new TestBuilder(jsonFiles);
-		tests.buildTests();
+		TestBuilder tests = new TestBuilder();
+		tests.buildTests(jsonFiles);
 		tests.executeCommands();
 		Allure.addAttachment("INFO", jsonFiles.getFileName().toString());
 	}

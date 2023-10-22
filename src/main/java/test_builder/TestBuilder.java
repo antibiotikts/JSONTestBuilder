@@ -16,15 +16,41 @@ import java.util.Queue;
 public class TestBuilder {
 	private static final Logger logger = LoggerFactory.getLogger(TestBuilder.class);
 	private final Queue<TestCommand> commandQueue = new LinkedList<>();
-	private final Path path;
 
-	public TestBuilder(Path path) {
-		this.path = path;
-	}
-
-	public void buildTests() {
+	public void buildTests(Path path) {
 		try {
 			JSONArray testSteps = JsonReader.getJsonArray(path);
+			if(testSteps == null) {
+				String errorMassage = "JSONArray is empty";
+				logger.error(errorMassage);
+				Allure.addAttachment("Error", errorMassage);
+				return;
+			}
+
+			for (int i = 0; i < testSteps.length(); i++) {
+				JSONObject step = testSteps.getJSONObject(i);
+				String action = step.getString("action");
+
+				Class<? extends TestCommand> commandClass = RegistrarOfCommands.getCommandMap().get(action.toLowerCase());
+				if (commandClass == null) {
+					String errorMassage = "Unknown action: " + action;
+					logger.error(errorMassage);
+					Allure.addAttachment("Error", errorMassage);
+					continue;
+				}
+				logger.info(step.toString());
+				commandQueue.add(commandClass.getConstructor(JSONObject.class).newInstance(step));
+			}
+		} catch (JSONException | IllegalAccessException | InstantiationException | NoSuchMethodException | InvocationTargetException e) {
+			String errorMassage = "An error occurred while building tests";
+			logger.error(errorMassage, e);
+			Allure.addAttachment("Error", errorMassage);
+			Allure.addAttachment("Exception", e.getMessage());
+		}
+	}
+
+	public void buildTests(JSONArray testSteps) {
+		try {
 			if(testSteps == null) {
 				String errorMassage = "JSONArray is empty";
 				logger.error(errorMassage);

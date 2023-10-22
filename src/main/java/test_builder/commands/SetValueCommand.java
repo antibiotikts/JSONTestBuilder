@@ -11,6 +11,7 @@ public class SetValueCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
+		Allure.addAttachment("Info", getInfo(jsonObject));
 		Allure.addAttachment("Command", "Set value");
 		SelenideElement element = getElement(jsonObject);
 		Allure.addAttachment("Element", element.toString());

@@ -1,5 +1,6 @@
 package test_builder.commands;
 
+import io.qameta.allure.Allure;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
@@ -18,6 +19,7 @@ public class SetBrowserCommand extends BaseCommand {
 	@Override
 	public void execute() {
 		try {
+			Allure.addAttachment("Info", getInfo(jsonObject));
 			browser = jsonObject.getString("browser");
 		} catch (JSONException e) {
 			logger.error("Parameter with browser name not found ", e);

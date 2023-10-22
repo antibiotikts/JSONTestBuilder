@@ -6,7 +6,7 @@
     <test name="demoqa_base_page_tests">
         <classes>
             <class name="test_builder.BaseTest"/>
-            <class name="test_builder.TestSuit3"/>
+            <class name="test_builder.ParametrizedTestSuite"/>
         </classes>
     </test>
 </suite>

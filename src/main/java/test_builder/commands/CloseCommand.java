@@ -15,6 +15,7 @@ public class CloseCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
+		Allure.addAttachment("Info", getInfo(jsonObject));
 		Allure.addAttachment("Command", "Close");
 		logger.info("The web driver is close");
 		Selenide.closeWebDriver();

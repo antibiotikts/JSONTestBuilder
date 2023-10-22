@@ -2,7 +2,6 @@ package test_builder.commands;
 
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Allure;
-import org.json.JSONException;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,19 +13,9 @@ public class ShouldBe extends BaseCommand {
 		super(jsonObject);
 	}
 
-	private String getValue(String jsonValue) {
-		try {
-			String value;
-			value = jsonObject.getString(jsonValue);
-			return value;
-		} catch (JSONException e) {
-			logger.error("value not found");
-			return null;
-		}
-	}
-
 	@Override
 	public void execute() {
+		Allure.addAttachment("Info", getInfo(jsonObject));
 		Allure.addAttachment("Command", "Should be");
 		String condition = getCondition(jsonObject);
 

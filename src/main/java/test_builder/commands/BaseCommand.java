@@ -132,6 +132,15 @@ public abstract class BaseCommand implements TestCommand {
 		return secondValue;
 	}
 
+	protected String getInfo(JSONObject jsonObject) {
+		if(jsonObject == null) {
+			return "";
+		}
+		String info;
+		info = jsonObject.optString("info", "");
+		return info;
+	}
+
 	private SelenideElement findElementByType(String selector, String selectorType, Logger logger) {
 
 
@@ -177,4 +186,5 @@ public abstract class BaseCommand implements TestCommand {
 				return null;
 		}
 	}
+
 }

@@ -13,6 +13,7 @@ public class ScrollToCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
+		Allure.addAttachment("Info", getInfo(jsonObject));
 		Allure.addAttachment("Command", "Scroll to");
 		SelenideElement element = getElement(jsonObject);
 		Allure.addAttachment("Element", element.toString());

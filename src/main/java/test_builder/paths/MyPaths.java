@@ -1,6 +1,5 @@
 package test_builder.paths;
 
-import java.io.File;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -20,5 +19,9 @@ public class MyPaths {
 
 	public static Path getJsonTestDirectory() {
 		return Paths.get(currentDirectory, "src", "test", "java", "test_builder", "tests_config");
+	}
+
+	public static Path getJsonParameterizedTestDirectory() {
+		return Paths.get(currentDirectory, "src", "test", "java", "test_builder", "tests_config", "parameterized_tests");
 	}
 }

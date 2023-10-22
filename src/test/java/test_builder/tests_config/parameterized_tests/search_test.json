@@ -1,0 +1,33 @@
+[
+  {
+    "action": "open",
+    "url": "https://rozetka.com.ua/"
+  },
+
+  {
+    "action": "type",
+    "selector_type": "xpath",
+    "element": "input",
+    "value": ["iphone", "ipad", "Bosch"]
+  },
+
+  {
+    "action": "close"
+  },
+
+  {
+    "action": "open",
+    "url": "https://rozetka.com.ua/"
+  },
+
+  {
+    "action": "type",
+    "selector_type": "xpath",
+    "selector": ".//input[@name='search']",
+    "value": "ipad"
+  },
+
+  {
+    "action": "close"
+  }
+]
