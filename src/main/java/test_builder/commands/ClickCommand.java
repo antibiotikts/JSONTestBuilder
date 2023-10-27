@@ -13,7 +13,12 @@ public class ClickCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
-		Allure.addAttachment("Info", getInfo(jsonObject));
+		String info = getInfo(jsonObject);
+
+		if (!info.equals("")) {
+			Allure.addAttachment("Info", getInfo(jsonObject));
+		}
+
 		Allure.addAttachment("Command", "Click" );
 		SelenideElement element = getElement(jsonObject);
 		Allure.addAttachment("element", element.toString());

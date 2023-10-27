@@ -11,8 +11,11 @@ public class TypeCommand extends BaseCommand {
 
 	@Override
 	public void execute() {
-		Allure.addAttachment("Info", getInfo(jsonObject));
-		getElement(jsonObject).setValue(getValue(jsonObject)).pressEnter();
+		String info = getInfo(jsonObject);
 
+		if (!info.equals("")) {
+			Allure.addAttachment("Info", getInfo(jsonObject));
+		}
+		getElement(jsonObject).setValue(getValue(jsonObject)).pressEnter();
 	}
 }

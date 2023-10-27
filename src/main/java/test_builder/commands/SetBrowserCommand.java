@@ -19,7 +19,11 @@ public class SetBrowserCommand extends BaseCommand {
 	@Override
 	public void execute() {
 		try {
-			Allure.addAttachment("Info", getInfo(jsonObject));
+			String info = getInfo(jsonObject);
+
+			if (!info.equals("")) {
+				Allure.addAttachment("Info", getInfo(jsonObject));
+			}
 			browser = jsonObject.getString("browser");
 		} catch (JSONException e) {
 			logger.error("Parameter with browser name not found ", e);

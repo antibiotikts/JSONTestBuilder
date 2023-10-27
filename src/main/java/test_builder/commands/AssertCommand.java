@@ -22,7 +22,12 @@ public class AssertCommand extends BaseCommand{
 		String expectedValue = getValue(jsonObject);
 
 		logger.info("Actual value: " + actualValue + "; Expected value: " + expectedValue);
-		Allure.addAttachment("Info", getInfo(jsonObject));
+		String info = getInfo(jsonObject);
+
+		if (!info.equals("")) {
+			Allure.addAttachment("Info", getInfo(jsonObject));
+		}
+
 		Allure.addAttachment("Element", element.toString());
 		Allure.addAttachment("Actual value", actualValue);
 		Allure.addAttachment("Expected value", expectedValue);

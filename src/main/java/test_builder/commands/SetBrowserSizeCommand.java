@@ -18,7 +18,11 @@ public class SetBrowserSizeCommand extends BaseCommand {
 	@Override
 	public void execute() {
 		try {
-			Allure.addAttachment("Info", getInfo(jsonObject));
+			String info = getInfo(jsonObject);
+
+			if (!info.equals("")) {
+				Allure.addAttachment("Info", getInfo(jsonObject));
+			}
 			browserSize = jsonObject.getString("browser size");
 		} catch (JSONException e) {
 			logger.error("Parameter with browser size not found ", e);
