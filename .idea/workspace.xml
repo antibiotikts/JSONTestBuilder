@@ -271,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698418000402</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added the ability to run parameterized tests">
+      <created>1698419167763</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1698419167763</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +292,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Adding_parameterized_tests" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
