@@ -1,37 +1,33 @@
 package test_builder;
 
-import io.qameta.allure.Allure;
 import org.json.JSONArray;
 import org.json.JSONException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import test_builder.logger.MyLog;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class JsonReader {
-	private static final Logger logger = LoggerFactory.getLogger(JsonReader.class);
+
+	private static final MyLog logger = new MyLog(JsonReader.class);
 
 	public static JSONArray getJsonArray(Path path) {
 		try {
 			String jsonContent = Files.readString(path);
 			try {
 				JSONArray jsonArray = new JSONArray(jsonContent);
-				logger.info("build JSON array successfully");
+				logger.infoLog("build JSON array successfully");
 				return jsonArray;
 			} catch (JSONException e) {
 				String  errorMessage = "JSON array does not building";
-				logger.error(errorMessage, e);
-				Allure.addAttachment("Error", errorMessage);
-				Allure.addAttachment("Exception", e.getMessage());
+				logger.errorLog(errorMessage, e);
 				assert false: errorMessage;
 				return null;
 			}
 		} catch (IOException e) {
 			String  errorMessage = "File does not read";
-			logger.error(errorMessage, e);
-			Allure.addAttachment("Error", errorMessage);
-			Allure.addAttachment("Exception", e.getMessage());
+			logger.errorLog(errorMessage, e);
 			assert false: errorMessage;
 			return null;
 		}
@@ -40,13 +36,11 @@ public class JsonReader {
 	public static JSONArray getJsonArray(String jsonContent) {
 			try {
 				JSONArray jsonArray = new JSONArray(jsonContent);
-				logger.info("build JSON array successfully");
+				logger.infoLog("build JSON array successfully");
 				return jsonArray;
 			} catch (JSONException e) {
 				String  errorMessage = "JSON array does not building";
-				logger.error(errorMessage, e);
-				Allure.addAttachment("Error", errorMessage);
-				Allure.addAttachment("Exception", e.getMessage());
+				logger.errorLog(errorMessage, e);
 				assert false: errorMessage;
 				return null;
 			}
@@ -57,9 +51,7 @@ public class JsonReader {
 			return Files.readString(path);
 		} catch (IOException e) {
 			String  errorMessage = "File does not read";
-			logger.error(errorMessage, e);
-			Allure.addAttachment("Error", errorMessage);
-			Allure.addAttachment("Exception", e.getMessage());
+			logger.errorLog(errorMessage, e);
 			assert false: errorMessage;
 			return null;
 		}

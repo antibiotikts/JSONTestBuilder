@@ -1,12 +1,10 @@
 package test_builder;
 
-import io.qameta.allure.Allure;
 import test_builder.classes_containers.ParametersPosition;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import test_builder.logger.MyLog;
 
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -14,7 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class BuildTestsList {
-	private static final Logger logger = LoggerFactory.getLogger(BuildTestsList.class);
+	private static final MyLog logger = new MyLog(BuildTestsList.class);
 
 	public static List<JSONArray> getJsonArrayList(Path path) {
 		String jsonContent = JsonReader.getJsonString(path);
@@ -25,16 +23,14 @@ public class BuildTestsList {
 
 		if(parametersPositions == null) {
 			String errorMassage = "Parameters not found";
-			logger.error(errorMassage);
-			Allure.addAttachment("Error", errorMassage);
+			logger.errorLog(errorMassage);
 			assert false;
 			return null;
 		}
 
 		if(!isAllArraySizeEqual(parametersPositions)) {
 			String errorMassage = "Different number of parameters, it is not possible to build a test";
-			logger.error(errorMassage);
-			Allure.addAttachment("Error", errorMassage);
+			logger.errorLog(errorMassage);
 			assert false;
 			return null;
 		}
@@ -52,9 +48,8 @@ public class BuildTestsList {
 		List<ParametersPosition> parametersPositions = new ArrayList<>();
 
 		if(jsonArray == null) {
-			String errorMessage = "JSON array is null";
-			logger.error(errorMessage);
-			Allure.addAttachment("Error", errorMessage);
+			String errorMassage = "JSON array is null";
+			logger.errorLog(errorMassage);
 			return null;
 		}
 
@@ -73,9 +68,7 @@ public class BuildTestsList {
 				}
 			} catch (JSONException e) {
 				String errorMessage = "Error getting JSONObject, index -  " + i;
-				logger.error(errorMessage, e);
-				Allure.addAttachment("Error", errorMessage);
-				Allure.addAttachment("Exception", e.getMessage());
+				logger.errorLog(errorMessage, e);
 				assert false;
 				return null;
 			}
@@ -97,9 +90,7 @@ public class BuildTestsList {
 				jsonArray.put(actionIndex, jsonObject);
 			} catch (JSONException e) {
 				String errorMessage = "modification error, action index - " + actionIndex;
-				logger.error(errorMessage, e);
-				Allure.addAttachment("Error", errorMessage);
-				Allure.addAttachment("Exception", e.getMessage());
+				logger.errorLog(errorMessage, e);
 			}
 		}
 		return jsonArray;

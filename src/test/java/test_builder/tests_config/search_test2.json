@@ -5,10 +5,16 @@
   },
 
   {
-    "action": "type",
+    "action": "set value",
     "selector_type": "xpath",
     "selector": ".//input[@name='search']",
     "value": "bosch"
+  },
+
+  {
+    "action": "press enter",
+    "selector_type": "xpath",
+    "selector": ".//input[@name='search']"
   },
 
   {

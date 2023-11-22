@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c19bb994-dd8a-4871-9ac4-2f9cad5a751e" name="Changes" comment="marge master with Adding_parametrized_test" />
+    <list default="true" id="c19bb994-dd8a-4871-9ac4-2f9cad5a751e" name="Changes" comment="added MyLogger.class">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/myapp.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/myapp.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/BuildJsonTestsArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/BuildTestsList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/BuildTestsList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/JsonReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/JsonReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/TestBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/TestBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test_builder/logger/MyLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test_builder/logger/MyLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/search_test2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test_builder/tests_config/search_test2.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +62,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -236,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698507652324</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added MyLogger.class">
+      <created>1699369439140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699369439140</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -250,7 +271,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Adding_parameterized_tests" />
+                        <option value="modify_log" />
                       </list>
                     </value>
                   </entry>
@@ -268,7 +289,8 @@
     <MESSAGE value="Improved command classes, added allure attachments" />
     <MESSAGE value="Added: &#10;1. Possibility of storing elements in a JSON file&#10;2. The keys moved to constants" />
     <MESSAGE value="marge master with Adding_parametrized_test" />
-    <option name="LAST_COMMIT_MESSAGE" value="marge master with Adding_parametrized_test" />
+    <MESSAGE value="added MyLogger.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MyLogger.class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
